@@ -1,0 +1,8 @@
+name: Test Check
+on: [push]
+jobs:
+  hello-job:
+     runs on:ubuntu-latest
+     steps:
+      - run: echo "Everything is Ok"
+      
